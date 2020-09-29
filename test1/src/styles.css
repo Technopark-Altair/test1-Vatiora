@@ -1,0 +1,51 @@
+body
+{
+    margin: 0;
+    display: grid;
+    grid-template-rows: 45% 10% 45%;
+    margin: 0 30% 0 30%;
+}
+p
+{
+    text-align: center;
+}
+.text
+{
+    width: 32%;
+    border: 1px solid #000;
+    margin-right: 30%;
+}
+.text:focus
+{
+    background-color: lightgoldenrodyellow;
+    color: rgb(9, 129, 49);
+    border: 1px solid darkblue;
+}
+.head
+{
+    width: 30%;
+    text-align: right;
+    float: left;
+}
+.block
+{
+    margin-bottom: 20px;
+}
+.button
+{
+    background-color: white;
+    font-size: 1.2em;
+}
+.button:hover
+{
+    background: rgba(248, 228, 48, 0.904);
+    color: rgb(0, 0, 0);
+}
+.Image
+{
+    margin: 35px 0 20px 0;
+}
+.Center
+{
+    text-align: center;
+}
